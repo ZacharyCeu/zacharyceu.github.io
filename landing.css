@@ -1,0 +1,86 @@
+.header {
+    font-weight: 500px;
+}
+
+.main-body {
+    display: flex;
+    justify-content: space-between;
+    flex-grow:1;
+    vertical-align: middle;
+    align-items: middle;
+}
+
+.main-icon-wrapper {
+    text-align:center;
+    margin: 5% 15%;
+    position:relative;
+}
+
+.view-this {
+    text-decoration: underline;
+    text-align:center;
+}
+
+.CTA button {
+    background-color: #1E3A40;
+    border: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    border-radius: 8px;
+    margin-top: 1rem;
+}
+
+#CTA-personal {
+    display:none;
+}
+
+.CTA button a:hover {
+    color: black;
+}
+
+.text-wrapper-description {
+    font-size:1.1rem;
+}
+
+@media screen and (max-width:600px) {
+    .main-icon-wrapper {
+        display:none;
+    }
+
+    .CTA {
+        text-align:center;
+    }
+
+    .CTA button {
+        display:flex;
+        justify-content: middle;
+        margin: 0 auto;
+        margin-top: 1%;
+    }
+
+    #CTA-personal {
+        display: flex;
+    }
+}
+
+@media screen and (max-width:800px) {
+    .main-icon-wrapper {
+        display:none;
+    }
+
+    .CTA button {
+        display:flex;
+        justify-content: middle;
+        margin: 0 auto;
+        margin-top: 1%;
+    }
+
+    #CTA-personal {
+        display: flex;
+    }
+}
